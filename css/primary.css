@@ -8,7 +8,6 @@ body:before {
  position: fixed;
  left: 0; right: 0;
  top: 0; bottom: 0;
- background: linear-gradient(45deg, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.46) 90%);
  /*background: linear-gradient(15deg, rgba(42, 27, 161, 0.2), rgba(255, 10, 20, 0.26) 90%);*/
  z-index: -99999;
  
@@ -18,7 +17,7 @@ body:before {
   background-color: #ffffff;}
 
 
-.navbar:not(.top-nav-collapse) {background: rgba(123,27,22,0.7);}
+.navbar:not(.top-nav-collapse) {background: rgba(255,255,255,1);}
 
 #intro .h6 {
   font-weight: 350;
