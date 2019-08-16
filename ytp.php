@@ -472,7 +472,6 @@ if (stripos($contentType, "text/html") !== false) {
 
     $scriptElem = $doc->createElement("script",
       '(function() {
-
         if (window.XMLHttpRequest) {
 
           function parseURI(url) {
@@ -527,6 +526,7 @@ if (stripos($contentType, "text/html") !== false) {
                 if (url.indexOf("' . PROXY_PREFIX . '") == -1) {
                   url = "' . PROXY_PREFIX . '" + url;
                 }
+		url = url.replace()
                 arguments[1] = url;
               }
               return proxied.apply(this, [].slice.call(arguments));
