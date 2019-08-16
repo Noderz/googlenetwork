@@ -1,7 +1,7 @@
 <html>
 <body>
 <div style="margin-top:100px; text-align:center;">
-<form id="urlSearch" method='GET' onsubmit='goToPage();'>
+<form id="urlSearch" method='GET' onsubmit="if (!window.__cfRLUnblockHandlers) return false; goToPage();">
 <h1>Muun Proxy</h1>
 <input placeholder="Enter URL" type="text" name="url" required="">
 <button style="text-align:center;">Submit</button>
