@@ -1,8 +1,8 @@
-# TitaniumPhoenix V2
+# Google Network
 
-A beautiful and lightweight web-proxy site built to be easy to use and modify for everyone; for students, by students.
+A Modified Titanium Network to be material design and go under the radar for your teachers.
 
-Initial Release Date: 02/11/2019.
+Initial Release Date: 08/17/2019.
 #### Basic info
 
 This web-app, measuring about 20 MB, is designed to be as light on server storage as possible.
